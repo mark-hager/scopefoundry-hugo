@@ -6,6 +6,9 @@ description: A Python platform for controlling custom laboratory experiments and
 weight: 1
 ---
 
+[getting_started_docs]:/docs/1_getting-started/
+[tools_tutorials]:/docs/11_tools-tutorials/
+
 **Features**
 
 * Modular, cross-platform Python graphical interface allows for fast data acquisition and visualization
@@ -19,5 +22,5 @@ weight: 1
 
 **Give your users next steps from the Overview**
 
-- [Getting Started](/docs/1_getting-started): Get started with ScopeFoundry
-- [Tutorial](/docs/11_tools-tutorials/)
+- [Getting Started][getting_started_docs]: Get started with ScopeFoundry
+- [Tutorial][tools_tutorials]

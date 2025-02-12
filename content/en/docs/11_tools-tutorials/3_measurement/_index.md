@@ -6,6 +6,7 @@ weight: 3
 ---
 [ Qt Creator ]:https://www.qt.io/offline-installers
 [analyze with jupyter notebook]:/docs/30_tips_and_tricks/analyze-with-ipynb/
+[getting_started_docs]:/docs/1_getting-started/
 [more on hardware]:../10_hardware-2/
 
 

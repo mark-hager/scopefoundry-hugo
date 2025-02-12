@@ -4,9 +4,13 @@ description: Given a folder with .h5 files, use this feature to analyze data qui
 date: 2025-01-01
 weight: 3
 ---
+
+[getting_started_docs]:/docs/1_getting-started/
+
+
 ## Recommendation
 
-This feature works best if the machine you are working on has Jupyter notebook installed such that double-clicking opens it. One *recommended* way:
+This feature requires to have Jupyter notebook installed. It works best launch a ipynb-file (e.g. double-clicking) opens a Jupyter editor. One *recommended* way:
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/download)
 2. Install extensions:
@@ -22,23 +26,22 @@ There are 2 ways to start that feature.
 
     ![Screenshot 2025-01-12 at 17.45.20](launch_analyze.png)
 
-2. Using ScopeFoundry tools ([requires ScopeFoundry 2.0+ see getting started tutorial](/docs/1_getting-started/))
+2. Using ScopeFoundry tools (install instructions [here][getting_started_docs])
+	```sh
+	cd "to / your_folder_with_data"
+	```
+	
+	potentialy (`conda activate scopefoundry`)
+	```sh
+	python -m ScopeFoundry.tools
+	```
+	
+	then click the corresponding button on the Welcome tap. 
 
-```sh
-cd "to / your folder with data"
-```
-```sh
-conda activate scopefoundry
-```
-or for mac:  `source activate scopefoundry`
 
-```sh
-python -m ScopeFoundry.tools
-```
+## Benefit
 
-​	and clicking the corresponding button on the Welcome tap. 
-
-In that folder the feature generates
+This feature generates
 
 1. `h5_data_loaders.py` file containing convenience methods based on the .h5 files content
 2. an `overview.ipynb` where you can start your analysis

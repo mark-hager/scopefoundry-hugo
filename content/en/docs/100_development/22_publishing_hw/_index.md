@@ -101,4 +101,6 @@ Assuming:
 mkdir ScopeFoundryHW/{company_model} && cd ScopeFoundryHW/{company_model} && git init --initial-branch=master && git remote add upstream https://github.com/{USER_NAME}/{company_model}.git && git pull upstream master && cd ../..
 ```
 
-HINT: The entries of [reference/hw-components](/docs/300_reference/hw-components/) all ready contain this line other update and run it from your Project folder
+HINT: The entries of [reference/hw-components](/docs/300_reference/hw-components/) contain this line filled out. 
+
+Otherwise fill out the template and run this line.

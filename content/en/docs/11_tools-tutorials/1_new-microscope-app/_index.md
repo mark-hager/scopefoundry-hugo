@@ -7,7 +7,9 @@ weight: 1
 
 [IDE]:/docs/100_development/10_setup_eclipse/
 
-**Required** install [ScopeFoundry](/docs/1_getting-started)
+[getting_started_docs]:/docs/1_getting-started/
+
+**Required** install [ScopeFoundry](getting_started_docs)
 
 
 After installation, use anaconda prompt and navigate to where you want or have the source code for your setup and start ScopeFoundry.tools:
@@ -47,7 +49,9 @@ The folder structure should be of this form:
 ```sh
 ├── your_project_folder
     ├── ScopeFoundryHW
-     	├── company1_model1
+     	├── company1_model1 
+      	├── docs # optional
+	     		├── links.json 	
      		├── company1_model1_hw.py					
      		├── company1_model1_dev.py			
      		├── company1_model1_test_app.py
@@ -61,8 +65,7 @@ The folder structure should be of this form:
     
     # after databrowser tutorial
     ├── viewers.py
-    	├── images.py
-    	
+    	├── images.py	
     ├── fancy_data_browser.py
     
 ```
