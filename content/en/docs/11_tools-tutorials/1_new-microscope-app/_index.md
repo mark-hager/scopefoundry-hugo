@@ -49,7 +49,9 @@ The folder structure should be of this form:
 ```sh
 ├── your_project_folder
     ├── ScopeFoundryHW
-     	├── company1_model1
+     	├── company1_model1 
+      	├── docs # optional
+	     		├── links.json 	
      		├── company1_model1_hw.py					
      		├── company1_model1_dev.py			
      		├── company1_model1_test_app.py
@@ -63,8 +65,7 @@ The folder structure should be of this form:
     
     # after databrowser tutorial
     ├── viewers.py
-    	├── images.py
-    	
+    	├── images.py	
     ├── fancy_data_browser.py
     
 ```
